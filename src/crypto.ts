@@ -44,7 +44,7 @@ export async function seal(plain:string,identity:Identity,recipient:JsonWebKey):
 }
 export async function unseal(payload:{iv:string;ciphertext:string},identity:Identity,peer:JsonWebKey):Promise<string> {
   const key=await sharedKey(identity.privateKey,peer)
-  const data=await crypto.subtle.decrypt({name:'AES-GCM',iv:from64(payload.iv)},key,from64(payload.ciphertext))
+  const data=await crypto.subtle.decrypt({name:'AES-GCM',iv:from64(payload.iv) as BufferSource},key,from64(payload.ciphertext) as BufferSource)
   return new TextDecoder().decode(data)
 }
 export type LocalIdentity=Identity
