@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="180" viewBox="0 0 750 180" fill="none" role="img" aria-label="AetherComms">
+<defs><linearGradient id="g" x1="20" y1="10" x2="170" y2="165" gradientUnits="userSpaceOnUse"><stop stop-color="#6AF9F1"/><stop offset="1" stop-color="#31D3A3"/></linearGradient></defs>
+<rect x="6" y="6" width="158" height="158" rx="37" fill="#0B1020"/>
+<path d="M37 124 76 45c4-8 14-8 18 0l39 79" stroke="url(#g)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M57 109c18-19 39-19 57 0" stroke="url(#g)" stroke-width="9" stroke-linecap="round"/><circle cx="85" cy="93" r="7" fill="#8AF8E2"/>
+<text x="193" y="103" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-2" fill="#F0F8FF">Aether<tspan fill="#60E6D6">Comms</tspan></text>
+<text x="198" y="134" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="2" fill="#91A8BC">CONNECTION HAS A NEW ADDRESS</text>
+</svg>
