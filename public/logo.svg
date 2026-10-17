@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" role="img" aria-label="AetherComms">
+<defs><linearGradient id="g" x1="38" y1="32" x2="218" y2="213" gradientUnits="userSpaceOnUse"><stop stop-color="#63F0EE"/><stop offset="1" stop-color="#28CA97"/></linearGradient></defs>
+<rect width="256" height="256" rx="59" fill="#0B1020"/>
+<path d="M46 185 115 60c6-11 20-11 26 0l69 125" stroke="url(#g)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M78 161c31-31 69-31 100 0" stroke="url(#g)" stroke-width="13" stroke-linecap="round"/>
+<circle cx="128" cy="136" r="10" fill="#8AF8E2"/>
+<circle cx="128" cy="136" r="31" stroke="#5ADDD8" stroke-opacity=".28" stroke-width="2"/>
+</svg>
