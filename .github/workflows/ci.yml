@@ -3,6 +3,7 @@ on:
   push:
     branches: [main]
   pull_request:
+
 jobs:
   build-test:
     runs-on: ubuntu-latest
@@ -11,8 +12,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
-          cache-dependency-path: package-lock.json
+      # The project currently has no committed npm lockfile.
+      # Skip setup-node's cache until package-lock.json is tracked.
       - run: npm install --no-audit --no-fund
       - run: npm test
       - run: npm run build
